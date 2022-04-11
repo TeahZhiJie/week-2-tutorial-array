@@ -1,0 +1,14 @@
+#include<stdio.h>
+
+int main()
+{
+    float number[5];
+    float sum = 0; 
+    for (int i = 0; i < 5; i++)
+    {
+        scanf("%f", &number[i]);
+        sum += number[i]; 
+    }
+    float average = sum / 5; 
+    printf("Average value is %f", average); 
+}
