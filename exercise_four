@@ -1,0 +1,7 @@
+#include<stdio.h>
+
+int main()
+{
+    int theValue[3][3] = {{10, 100, 20}, {50, 20, 40}, {40, 40, 10}};
+    printf("Value from Row 2 and Column 3 is %d", theValue[1][2]); 
+}
