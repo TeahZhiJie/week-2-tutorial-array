@@ -1,0 +1,7 @@
+#include<stdio.h>
+
+int main()
+{
+    char myName[13] = {"TEAH ZHI JIE"}; 
+    printf("My name is %s, Bachelor of Information Technology from Universiti Malaysia Kelantan", myName); 
+}
